@@ -1,0 +1,29 @@
+.blog-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.5rem;
+  font-weight: 500;
+}
+
+.main-content-wrapper {
+  max-width: 1400px;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  margin: auto;
+
+  padding: 40px;
+}
+
+.load-more-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.load-more-wrapper:hover {
+  cursor: pointer;
+}
