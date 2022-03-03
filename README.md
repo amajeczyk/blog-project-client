@@ -2,8 +2,8 @@ Blog Project using React.js, MySql, Express.js, serverside deployed on Heroku (p
 
 Basic functionality:
 
--creating account
--logging in
--adding blogs
--viewing blogs
--account setting(viewing own blogs, deleting blogs)
+creating account, 
+logging in, 
+adding blogs, 
+viewing blogs, 
+account setting(viewing own blogs, deleting blogs)
