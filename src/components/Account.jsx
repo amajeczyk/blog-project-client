@@ -65,7 +65,10 @@ class Account extends React.Component {
   };
 
   redirectToBlogView = (event) => {
-    const id = event.target.getAttribute("id");
+    let id = event.target.getAttribute("id");
+    if (!id) {
+      id = event.target.parentElement.getAttribute("id");
+    }
     this.props.navigate(`/blog/${id}`);
   };
 
